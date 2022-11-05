@@ -10,13 +10,13 @@ public class C07_PeriodOf {
         // dogumunuzdan bugune ne kadar zaman gecti ?
 
         LocalDate bugun = LocalDate.now();
-        LocalDate dogumGunu=LocalDate.of(1972,01,18);
+        LocalDate dogumGunu=LocalDate.of(1992,9,24);
 
         Period gecenSure= Period.between(dogumGunu,bugun);
 
-        System.out.println(gecenSure); // P50Y9M11D
+        System.out.println(gecenSure); // P30Y1M10D
 
-        System.out.println(gecenSure.getYears()); // 50
+        System.out.println(gecenSure.getYears()); // 30
 
 
 
